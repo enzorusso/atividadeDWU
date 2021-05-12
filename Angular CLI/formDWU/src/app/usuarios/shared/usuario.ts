@@ -4,6 +4,6 @@ export class Usuario {
   data: Date = new Date;
   hora: Date = new Date;
   textoAlfanumerico: String = '';
-  numero: Number = new Number;
+  numero: String = '';
   textoLivreAlfanumerico: String = ''; //textbox
 }
