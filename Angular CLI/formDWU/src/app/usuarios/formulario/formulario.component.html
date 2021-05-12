@@ -1,0 +1,27 @@
+<h1>Faça seu login</h1>
+<form [formGroup]="formUser" (ngSubmit)="onSubmit()" class="row g-3">
+  <div class="col-md-6">
+    <label for="email">E-mail</label>
+    <input
+      type="text"
+      class="form-control"
+      name="email"
+      id="email"
+      formControlName="email"
+    />
+  </div>
+
+  <div class="col-md-6">
+    <label for="tipo">Senha</label>
+    <input
+      type="password"
+      class="form-control"
+      name="senha"
+      id="senha"
+      formControlName="senha"
+    />
+  </div>
+  <div class="col-12">
+    <input type="submit" class="btn btn-primary mt-4" value="Login" />
+  </div>
+</form>
