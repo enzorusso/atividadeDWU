@@ -18,15 +18,15 @@ Após clicar em salvar, os campos são resetados para valores em branco.
 
 
 Item 1 - A validação é feita pelo e-mail e senha.
-* E-mail válido: dwu@dwu.com.br
-* Senha válida:  DWU@2020
+<br /> E-mail válido: dwu@dwu.com.br
+<br /> Senha válida:  DWU@2020
 
 Caso e-mail e senha sejam diferentes do informado, apresenta mensagem de erro de login.
 Caso e-mail e senha sejam iguais ao informado, redireciona para a página de cadastro.
 
 Item 2 - Ao clicar em salvar, o objeto é apresenteado com os dados informados no console do navegador, por exemplo:
-"objetoCadastro":{
-"Data": "",
-"Hora": "",
-...
-}
+<br />"objetoCadastro":{
+<br />"Data": "",
+<br />"Hora": "",
+<br />...
+<br />}
