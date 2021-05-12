@@ -36,11 +36,12 @@
   <div class="form-group">
     <label for="hora">Números</label>
     <input
-      type="numbers"
+      type="text"
       class="form-control"
       name="numero"
       id="numero"
       formControlName="numero"
+      (keypress)="numberOnly($event)"
     />
   </div>
 

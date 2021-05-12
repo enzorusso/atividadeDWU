@@ -22,6 +22,14 @@ export class CadastroComponent implements OnInit {
     this.createForm(new Usuario());
   }
 
+  numberOnly(event:any): boolean {
+    const charCode = (event.which) ? event.which : event.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+      return false;
+    }
+    return true;
+  }
+
   createForm(user: Usuario) {
     this.formUser = new FormGroup({
       data: new FormControl(user.data),
